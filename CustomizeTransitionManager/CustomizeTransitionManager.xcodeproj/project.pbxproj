@@ -13,6 +13,7 @@
 		390006A51E81175900E37F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390006A31E81175900E37F34 /* Main.storyboard */; };
 		390006A71E81175900E37F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390006A61E81175900E37F34 /* Assets.xcassets */; };
 		390006AA1E81175900E37F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390006A81E81175900E37F34 /* LaunchScreen.storyboard */; };
+		390006B41E8118C500E37F34 /* YYTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 390006B31E8118C500E37F34 /* YYTransitionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		390006A61E81175900E37F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		390006A91E81175900E37F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		390006AB1E81175900E37F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390006B21E8118C500E37F34 /* YYTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTransitionManager.h; sourceTree = "<group>"; };
+		390006B31E8118C500E37F34 /* YYTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTransitionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		390006991E81175900E37F34 /* CustomizeTransitionManager */ = {
 			isa = PBXGroup;
 			children = (
+				390006B11E8118A700E37F34 /* TransitionManager */,
 				3900069D1E81175900E37F34 /* AppDelegate.h */,
 				3900069E1E81175900E37F34 /* AppDelegate.m */,
 				390006A01E81175900E37F34 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				3900069B1E81175900E37F34 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		390006B11E8118A700E37F34 /* TransitionManager */ = {
+			isa = PBXGroup;
+			children = (
+				390006B21E8118C500E37F34 /* YYTransitionManager.h */,
+				390006B31E8118C500E37F34 /* YYTransitionManager.m */,
+			);
+			path = TransitionManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				390006B41E8118C500E37F34 /* YYTransitionManager.m in Sources */,
 				390006A21E81175900E37F34 /* ViewController.m in Sources */,
 				3900069F1E81175900E37F34 /* AppDelegate.m in Sources */,
 				3900069C1E81175900E37F34 /* main.m in Sources */,
