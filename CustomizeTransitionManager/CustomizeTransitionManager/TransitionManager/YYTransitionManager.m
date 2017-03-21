@@ -8,6 +8,15 @@
 
 #import "YYTransitionManager.h"
 
+@interface YYTransitionManager ()
+
+@end
+
 @implementation YYTransitionManager
+
+- (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
+{
+    return YYTransitonDuration;
+}
 
 @end
