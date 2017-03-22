@@ -15,6 +15,9 @@
 		390006AA1E81175900E37F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390006A81E81175900E37F34 /* LaunchScreen.storyboard */; };
 		390006B41E8118C500E37F34 /* YYTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 390006B31E8118C500E37F34 /* YYTransitionManager.m */; };
 		390006B81E81268000E37F34 /* YYNavigationTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 390006B71E81268000E37F34 /* YYNavigationTransitionManager.m */; };
+		39BC4A871E820DFC00E5FA0D /* NaviRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC4A861E820DFC00E5FA0D /* NaviRootViewController.m */; };
+		39BC4A8A1E820E0900E5FA0D /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC4A891E820E0900E5FA0D /* PushedViewController.m */; };
+		39BC4A8D1E820E1E00E5FA0D /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC4A8C1E820E1E00E5FA0D /* PresentedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		390006B51E8120B500E37F34 /* YYTransiton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTransiton.h; sourceTree = "<group>"; };
 		390006B61E81268000E37F34 /* YYNavigationTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNavigationTransitionManager.h; sourceTree = "<group>"; };
 		390006B71E81268000E37F34 /* YYNavigationTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNavigationTransitionManager.m; sourceTree = "<group>"; };
+		39BC4A851E820DFC00E5FA0D /* NaviRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviRootViewController.h; sourceTree = "<group>"; };
+		39BC4A861E820DFC00E5FA0D /* NaviRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviRootViewController.m; sourceTree = "<group>"; };
+		39BC4A881E820E0900E5FA0D /* PushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		39BC4A891E820E0900E5FA0D /* PushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
+		39BC4A8B1E820E1E00E5FA0D /* PresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
+		39BC4A8C1E820E1E00E5FA0D /* PresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +79,12 @@
 				3900069E1E81175900E37F34 /* AppDelegate.m */,
 				390006A01E81175900E37F34 /* ViewController.h */,
 				390006A11E81175900E37F34 /* ViewController.m */,
+				39BC4A851E820DFC00E5FA0D /* NaviRootViewController.h */,
+				39BC4A861E820DFC00E5FA0D /* NaviRootViewController.m */,
+				39BC4A881E820E0900E5FA0D /* PushedViewController.h */,
+				39BC4A891E820E0900E5FA0D /* PushedViewController.m */,
+				39BC4A8B1E820E1E00E5FA0D /* PresentedViewController.h */,
+				39BC4A8C1E820E1E00E5FA0D /* PresentedViewController.m */,
 				390006A31E81175900E37F34 /* Main.storyboard */,
 				390006A61E81175900E37F34 /* Assets.xcassets */,
 				390006A81E81175900E37F34 /* LaunchScreen.storyboard */,
@@ -172,7 +187,10 @@
 			files = (
 				390006B41E8118C500E37F34 /* YYTransitionManager.m in Sources */,
 				390006A21E81175900E37F34 /* ViewController.m in Sources */,
+				39BC4A871E820DFC00E5FA0D /* NaviRootViewController.m in Sources */,
+				39BC4A8A1E820E0900E5FA0D /* PushedViewController.m in Sources */,
 				3900069F1E81175900E37F34 /* AppDelegate.m in Sources */,
+				39BC4A8D1E820E1E00E5FA0D /* PresentedViewController.m in Sources */,
 				3900069C1E81175900E37F34 /* main.m in Sources */,
 				390006B81E81268000E37F34 /* YYNavigationTransitionManager.m in Sources */,
 			);
@@ -333,6 +351,7 @@
 				390006B01E81175900E37F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
