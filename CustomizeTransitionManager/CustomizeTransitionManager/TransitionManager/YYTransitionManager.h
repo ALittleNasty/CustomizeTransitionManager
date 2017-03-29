@@ -12,6 +12,8 @@
 
 @interface YYTransitionManager : NSObject<UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate>
 
-    
+@property (nonatomic, assign) YYTransitionModalType type;
+@property (nonatomic, strong) id<UIViewControllerContextTransitioning> delegate;
+
 
 @end

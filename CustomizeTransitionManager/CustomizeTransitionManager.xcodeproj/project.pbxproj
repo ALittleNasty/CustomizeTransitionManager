@@ -18,6 +18,7 @@
 		39BC4A871E820DFC00E5FA0D /* NaviRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC4A861E820DFC00E5FA0D /* NaviRootViewController.m */; };
 		39BC4A8A1E820E0900E5FA0D /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC4A891E820E0900E5FA0D /* PushedViewController.m */; };
 		39BC4A8D1E820E1E00E5FA0D /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC4A8C1E820E1E00E5FA0D /* PresentedViewController.m */; };
+		39BC4A921E821E9600E5FA0D /* ZFModalTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BC4A911E821E9600E5FA0D /* ZFModalTransitionAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,9 @@
 		39BC4A891E820E0900E5FA0D /* PushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
 		39BC4A8B1E820E1E00E5FA0D /* PresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
 		39BC4A8C1E820E1E00E5FA0D /* PresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
+		39BC4A8F1E821E9600E5FA0D /* ZFDragableModalTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDragableModalTransition.h; sourceTree = "<group>"; };
+		39BC4A901E821E9600E5FA0D /* ZFModalTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFModalTransitionAnimator.h; sourceTree = "<group>"; };
+		39BC4A911E821E9600E5FA0D /* ZFModalTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFModalTransitionAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		390006991E81175900E37F34 /* CustomizeTransitionManager */ = {
 			isa = PBXGroup;
 			children = (
+				39BC4A8E1E821E9600E5FA0D /* ZFDragableModalTransition */,
 				390006B11E8118A700E37F34 /* TransitionManager */,
 				3900069D1E81175900E37F34 /* AppDelegate.h */,
 				3900069E1E81175900E37F34 /* AppDelegate.m */,
@@ -112,6 +117,16 @@
 				390006B51E8120B500E37F34 /* YYTransiton.h */,
 			);
 			path = TransitionManager;
+			sourceTree = "<group>";
+		};
+		39BC4A8E1E821E9600E5FA0D /* ZFDragableModalTransition */ = {
+			isa = PBXGroup;
+			children = (
+				39BC4A8F1E821E9600E5FA0D /* ZFDragableModalTransition.h */,
+				39BC4A901E821E9600E5FA0D /* ZFModalTransitionAnimator.h */,
+				39BC4A911E821E9600E5FA0D /* ZFModalTransitionAnimator.m */,
+			);
+			path = ZFDragableModalTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +205,7 @@
 				39BC4A871E820DFC00E5FA0D /* NaviRootViewController.m in Sources */,
 				39BC4A8A1E820E0900E5FA0D /* PushedViewController.m in Sources */,
 				3900069F1E81175900E37F34 /* AppDelegate.m in Sources */,
+				39BC4A921E821E9600E5FA0D /* ZFModalTransitionAnimator.m in Sources */,
 				39BC4A8D1E820E1E00E5FA0D /* PresentedViewController.m in Sources */,
 				3900069C1E81175900E37F34 /* main.m in Sources */,
 				390006B81E81268000E37F34 /* YYNavigationTransitionManager.m in Sources */,
